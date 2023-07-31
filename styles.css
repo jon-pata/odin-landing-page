@@ -1,0 +1,177 @@
+*{
+    /*font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    height: 100vh;
+}
+
+body > div {
+    padding: 0 200px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+.blue {
+    background-color: #1F2937;
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 22px;
+}
+
+.header-left{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-right{
+    font-weight: 100;
+}
+
+.header-right ul{
+    display: flex;
+    gap: 12px;
+}
+
+.awesome h1 {
+    font-size: 36px;
+}
+
+.awesome {
+    display: flex;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    gap: 72px;
+}
+
+.awesome p {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.awesome img{
+    width: 400px;
+    height: auto;
+}
+
+.awesome button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    padding: 4px 20px;
+    font-weight: 500;
+}
+
+.awesome-left {
+
+}
+
+.awesome-right {
+    flex: 1;
+}
+
+.random-info {
+    padding-bottom: 72px;
+}
+
+.random-info h1 {
+    margin: 48px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    gap: 16px;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 150px;
+}
+
+.card .img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+}
+
+.card .card-text {
+    margin: 6px;
+    font-size: 14px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.quote h2 {
+    font-size: 32px;
+    font-weight: 300;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+.quote p {
+    text-align: end;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.c2a {
+    margin: 72px 0;
+    color: white;
+}
+
+.c2a-container {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-around;
+    align-items: center;
+    padding: 56px;
+    border-radius: 12px;
+}
+
+.c2a-container * {
+    margin: 0;
+}
+
+.c2a button {
+    height: 30px;
+    width: 88px;
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    padding: 28px;
+}
